@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "p3XfYqLUgIRWGXb/lYbX2iaJ8xWMWAyKECYeDc48uR3ThDRHNZHhH+dorGFGwkv/7/8au5a1r2GlmVe5n8swPQ==",
+  "success": true,
+  "projectFilePath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleTests/ConsoleTests.csproj",
+  "expectedPackageFiles": [
+    "/Users/malanone/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/malanone/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
