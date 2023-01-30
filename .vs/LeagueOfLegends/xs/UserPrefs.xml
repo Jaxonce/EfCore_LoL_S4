@@ -1,0 +1,37 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{F4473EB6-6CD7-4A73-89BC-82C247A23412}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Tests.TestUnitaireLOL PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleDB PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/ConsoleDB/Program.cs">
+    <Files>
+      <File FileName="../../EntityFrameWorkLib/EntityFrameWorkLib/Class1.cs" />
+      <File FileName="Tests/ConsoleDB/Program.cs" Line="21" Column="19" />
+      <File FileName="../../EntityFrameWorkLib/EntityFrameWorkLib/LolContext.cs" />
+      <File FileName="../../EntityFrameWorkLib/EntityFrameWorkLib/EntityFrameWorkLib.csproj" />
+      <File FileName="Tests/ConsoleDB/ConsoleDB.csproj" />
+      <File FileName="Tests/TestUnitaireLOL/UnitTest1.cs" />
+      <File FileName="Tests/TestUnitaireLOL/Usings.cs" />
+      <File FileName="Tests/ConsoleTests/Program.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LeagueOfLegends" expanded="True">
+            <Node name="Tests" expanded="True">
+              <Node name="ConsoleDB" expanded="True" />
+              <Node name="ConsoleTests" expanded="True" />
+              <Node name="TestUnitaireLOL" expanded="True">
+                <Node name="UnitTest1.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="EntityFrameWorkLib" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
