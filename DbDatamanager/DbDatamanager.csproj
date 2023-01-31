@@ -6,7 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\EntityFrameWorkLib\EntityFrameWorkLib\EntityFrameWorkLib.csproj" />
-  </ItemGroup>
 </Project>
