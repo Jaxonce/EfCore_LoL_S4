@@ -23,4 +23,7 @@
   </ItemGroup>
 
   
+  <ItemGroup>
+    <ProjectReference Include="..\..\EntityFrameWorkLib\EntityFrameWorkLib.csproj" />
+  </ItemGroup>
 </Project>
