@@ -3,9 +3,11 @@
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/ConsoleDB.runtimeconfig.json
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/ConsoleDB.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/ConsoleDB.pdb
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Humanizer.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Microsoft.Extensions.Caching.Abstractions.dll
@@ -18,9 +20,11 @@
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Mono.TextTemplating.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/SQLitePCLRaw.core.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/System.CodeDom.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/runtimes/alpine-arm/native/libe_sqlite3.so
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/runtimes/alpine-arm64/native/libe_sqlite3.so
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so
@@ -56,7 +60,3 @@
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/obj/Debug/net7.0/ConsoleDB.pdb
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/obj/Debug/net7.0/ConsoleDB.genruntimeconfig.cache
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/obj/Debug/net7.0/ref/ConsoleDB.dll
-/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Humanizer.dll
-/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
-/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/Mono.TextTemplating.dll
-/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/bin/Debug/net7.0/System.CodeDom.dll

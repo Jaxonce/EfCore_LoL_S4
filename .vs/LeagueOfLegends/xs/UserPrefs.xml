@@ -1,27 +1,49 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{F4473EB6-6CD7-4A73-89BC-82C247A23412}|Default">
   <MonoDevelop.Ide.ItemProperties.Tests.TestUnitaireLOL PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../EntityFrameWorkLib/EntityFrameWorkLib/ChampionEntity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../usr/local/share/dotnet/sdk/7.0.102/Microsoft.Common.CurrentVersion.targets">
     <Files>
-      <File FileName="../../EntityFrameWorkLib/EntityFrameWorkLib/Class1.cs" />
-      <File FileName="Tests/ConsoleDB/Program.cs" />
-      <File FileName="../../EntityFrameWorkLib/EntityFrameWorkLib/LolContext.cs" />
-      <File FileName="../../EntityFrameWorkLib/EntityFrameWorkLib/EntityFrameWorkLib.csproj" />
+      <File FileName="Tests/ConsoleDB/Program.cs" Line="1" Column="1" />
       <File FileName="Tests/ConsoleDB/ConsoleDB.csproj" />
-      <File FileName="Tests/TestUnitaireLOL/UnitTest1.cs" />
-      <File FileName="Tests/TestUnitaireLOL/Usings.cs" />
-      <File FileName="Tests/ConsoleTests/Program.cs" />
+      <File FileName="Tests/TestUnitaireLOL/UnitTest1.cs" Line="1" Column="18" />
+      <File FileName="Tests/TestUnitaireLOL/Usings.cs" Line="1" Column="1" />
+      <File FileName="Tests/ConsoleTests/Program.cs" Line="1" Column="1" />
       <File FileName="Model/Champion.cs" />
       <File FileName="Model/IDataManager.cs" />
       <File FileName="Shared/IGenericDataManager.cs" />
-      <File FileName="../../EntityFrameWorkLib/EntityFrameWorkLib/ChampionEntity.cs" Line="1" Column="1" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/7.0.102/Microsoft.Common.CurrentVersion.targets" Line="1830" Column="5" />
+      <File FileName="DbDatamanager/DbDataManager.cs" Line="1" Column="1" />
+      <File FileName="EntityFrameWorkLib/ChampionEntity.cs" Line="1" Column="1" />
+      <File FileName="EntityFrameWorkLib/Class1.cs" Line="1" Column="1" />
+      <File FileName="EntityFrameWorkLib/LolContext.cs" Line="1" Column="1" />
+      <File FileName="StubLib/Extensions.cs" Line="1" Column="1" />
+      <File FileName="StubLib/StubData.cs" Line="1" Column="1" />
+      <File FileName="StubLib/StubData.Champions.cs" Line="1" Column="1" />
+      <File FileName="StubLib/StubData.RunePages.cs" Line="1" Column="1" />
+      <File FileName="StubLib/StubData.Runes.cs" Line="1" Column="1" />
+      <File FileName="StubLib/StubData.Skins.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LeagueOfLegends" expanded="True">
-            <Node name="EntityFrameWorkLib" expanded="True" selected="True" />
+            <Node name="Stub" expanded="True">
+              <Node name="StubLib" expanded="True" />
+            </Node>
+            <Node name="Tests" expanded="True">
+              <Node name="ConsoleDB" expanded="True" />
+              <Node name="ConsoleTests" expanded="True" />
+              <Node name="TestUnitaireLOL" expanded="True" />
+            </Node>
+            <Node name="DbDatamanager" expanded="True" />
+            <Node name="EntityFrameWorkLib" expanded="True" />
+            <Node name="Model" expanded="True" />
             <Node name="Shared" expanded="True" />
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="LeagueOfLegends" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
@@ -29,7 +51,9 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.DbDatamanager FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Tests.ConsoleDB PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />

@@ -1,0 +1,17 @@
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/bin/Debug/net7.0/StubLib.deps.json
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/bin/Debug/net7.0/StubLib.dll
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/bin/Debug/net7.0/StubLib.pdb
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/bin/Debug/net7.0/Model.dll
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/bin/Debug/net7.0/Shared.dll
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/bin/Debug/net7.0/Model.pdb
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/bin/Debug/net7.0/Shared.pdb
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/obj/Debug/net7.0/StubLib.csproj.AssemblyReference.cache
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/obj/Debug/net7.0/StubLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/obj/Debug/net7.0/StubLib.AssemblyInfoInputs.cache
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/obj/Debug/net7.0/StubLib.AssemblyInfo.cs
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/obj/Debug/net7.0/StubLib.csproj.CoreCompileInputs.cache
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/obj/Debug/net7.0/StubLib.csproj.CopyComplete
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/obj/Debug/net7.0/StubLib.dll
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/obj/Debug/net7.0/refint/StubLib.dll
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/obj/Debug/net7.0/StubLib.pdb
+/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/obj/Debug/net7.0/ref/StubLib.dll

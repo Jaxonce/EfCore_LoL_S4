@@ -1,0 +1,15 @@
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/bin/Debug/net7.0/Model.deps.json
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/bin/Debug/net7.0/Model.dll
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/bin/Debug/net7.0/Model.pdb
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/bin/Debug/net7.0/Shared.dll
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/bin/Debug/net7.0/Shared.pdb
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/obj/Debug/net7.0/Model.csproj.AssemblyReference.cache
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/obj/Debug/net7.0/Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/obj/Debug/net7.0/Model.AssemblyInfoInputs.cache
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/obj/Debug/net7.0/Model.AssemblyInfo.cs
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/obj/Debug/net7.0/Model.csproj.CoreCompileInputs.cache
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/obj/Debug/net7.0/Model.csproj.CopyComplete
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/obj/Debug/net7.0/Model.dll
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/obj/Debug/net7.0/refint/Model.dll
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/obj/Debug/net7.0/Model.pdb
+/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/obj/Debug/net7.0/ref/Model.dll

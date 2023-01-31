@@ -17,15 +17,15 @@
           "/Users/malanone/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
               "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/Shared.csproj": {
                 "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/Shared.csproj"
@@ -40,8 +40,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -129,15 +129,15 @@
           "/Users/malanone/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
               "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/Model.csproj": {
                 "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/Model.csproj"
@@ -152,8 +152,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -187,15 +187,15 @@
           "/Users/malanone/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
               "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/Model.csproj": {
                 "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/Model.csproj"
@@ -213,8 +213,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
