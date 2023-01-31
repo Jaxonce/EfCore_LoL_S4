@@ -7242,8 +7242,8 @@
     },
     "EntityFrameWorkLib/1.0.0": {
       "type": "project",
-      "path": "../../../../EntityFrameWorkLib/EntityFrameWorkLib/EntityFrameWorkLib.csproj",
-      "msbuildProject": "../../../../EntityFrameWorkLib/EntityFrameWorkLib/EntityFrameWorkLib.csproj"
+      "path": "../../EntityFrameWorkLib/EntityFrameWorkLib.csproj",
+      "msbuildProject": "../../EntityFrameWorkLib/EntityFrameWorkLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7282,8 +7282,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/malanone/Projects/EntityFrameWorkLib/EntityFrameWorkLib/EntityFrameWorkLib.csproj": {
-              "projectPath": "/Users/malanone/Projects/EntityFrameWorkLib/EntityFrameWorkLib/EntityFrameWorkLib.csproj"
+            "/Users/malanone/Projects/EntityFramework_LoL/Sources/EntityFrameWorkLib/EntityFrameWorkLib.csproj": {
+              "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/EntityFrameWorkLib/EntityFrameWorkLib.csproj"
             }
           }
         }

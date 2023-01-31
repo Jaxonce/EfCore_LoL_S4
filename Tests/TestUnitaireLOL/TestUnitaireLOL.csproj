@@ -26,6 +26,6 @@
     <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\EntityFrameWorkLib\EntityFrameWorkLib\EntityFrameWorkLib.csproj" />
+    <ProjectReference Include="..\..\EntityFrameWorkLib\EntityFrameWorkLib.csproj" />
   </ItemGroup>
 </Project>
