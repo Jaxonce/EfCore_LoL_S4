@@ -32,7 +32,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <DisabledProjects>
-    <String>../../EntityFrameWorkLib/EntityFrameWorkLib/EntityFrameWorkLib.csproj</String>
+    <String>EntityFrameWorkLib/EntityFrameWorkLib.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.ItemProperties.Tests.ConsoleDB PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />

@@ -2296,6 +2296,20 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "EntityFrameWorkLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.2"
+        },
+        "compile": {
+          "bin/placeholder/EntityFrameWorkLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntityFrameWorkLib.dll": {}
+        }
       }
     }
   },
@@ -7225,10 +7239,16 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "EntityFrameWorkLib/1.0.0": {
+      "type": "project",
+      "path": "../../../../EntityFrameWorkLib/EntityFrameWorkLib/EntityFrameWorkLib.csproj",
+      "msbuildProject": "../../../../EntityFrameWorkLib/EntityFrameWorkLib/EntityFrameWorkLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "EntityFrameWorkLib >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.2",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "coverlet.collector >= 3.1.2",
@@ -7261,7 +7281,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/malanone/Projects/EntityFrameWorkLib/EntityFrameWorkLib/EntityFrameWorkLib.csproj": {
+              "projectPath": "/Users/malanone/Projects/EntityFrameWorkLib/EntityFrameWorkLib/EntityFrameWorkLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
