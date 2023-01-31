@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p3XfYqLUgIRWGXb/lYbX2iaJ8xWMWAyKECYeDc48uR3ThDRHNZHhH+dorGFGwkv/7/8au5a1r2GlmVe5n8swPQ==",
+  "dgSpecHash": "w7alFDYViNV5abtDx6RKurLUBj/Fpaa/QndUv60ghr/O5SkN4ffaImVkr6J7ldZeRGj5cNTlE9k2ahxj/ribeA==",
   "success": true,
   "projectFilePath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleTests/ConsoleTests.csproj",
   "expectedPackageFiles": [
