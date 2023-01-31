@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitaireLOL", "Tests\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbDatamanager", "DbDatamanager\DbDatamanager.csproj", "{B316E0A6-491B-45D6-A4E5-78AB662ABE1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWorkLib", "EntityFrameWorkLib\EntityFrameWorkLib.csproj", "{9BACB936-6DF3-4BB4-A824-1DC65931BECC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{B316E0A6-491B-45D6-A4E5-78AB662ABE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B316E0A6-491B-45D6-A4E5-78AB662ABE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B316E0A6-491B-45D6-A4E5-78AB662ABE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BACB936-6DF3-4BB4-A824-1DC65931BECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BACB936-6DF3-4BB4-A824-1DC65931BECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BACB936-6DF3-4BB4-A824-1DC65931BECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BACB936-6DF3-4BB4-A824-1DC65931BECC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
