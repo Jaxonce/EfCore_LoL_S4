@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleTests/ConsoleTests.csproj": {}
+    "/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTests/ConsoleTests.csproj": {}
   },
   "projects": {
-    "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/Model.csproj": {
+    "/Users/malanone/Projects/EfCore_LoL_S4/Model/Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/Model.csproj",
+        "projectUniqueName": "/Users/malanone/Projects/EfCore_LoL_S4/Model/Model.csproj",
         "projectName": "Model",
-        "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/Model.csproj",
+        "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/Model/Model.csproj",
         "packagesPath": "/Users/malanone/.nuget/packages/",
-        "outputPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/obj/",
+        "outputPath": "/Users/malanone/Projects/EfCore_LoL_S4/Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/malanone/.nuget/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/Shared.csproj": {
-                "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/Shared.csproj"
+              "/Users/malanone/Projects/EfCore_LoL_S4/Shared/Shared.csproj": {
+                "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/Shared/Shared.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/Shared.csproj": {
+    "/Users/malanone/Projects/EfCore_LoL_S4/Shared/Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/Shared.csproj",
+        "projectUniqueName": "/Users/malanone/Projects/EfCore_LoL_S4/Shared/Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/Shared.csproj",
+        "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/Shared/Shared.csproj",
         "packagesPath": "/Users/malanone/.nuget/packages/",
-        "outputPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/obj/",
+        "outputPath": "/Users/malanone/Projects/EfCore_LoL_S4/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/malanone/.nuget/NuGet/NuGet.Config"
@@ -116,14 +116,14 @@
         }
       }
     },
-    "/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/StubLib.csproj": {
+    "/Users/malanone/Projects/EfCore_LoL_S4/StubLib/StubLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/StubLib.csproj",
+        "projectUniqueName": "/Users/malanone/Projects/EfCore_LoL_S4/StubLib/StubLib.csproj",
         "projectName": "StubLib",
-        "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/StubLib.csproj",
+        "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/StubLib/StubLib.csproj",
         "packagesPath": "/Users/malanone/.nuget/packages/",
-        "outputPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/obj/",
+        "outputPath": "/Users/malanone/Projects/EfCore_LoL_S4/StubLib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/malanone/.nuget/NuGet/NuGet.Config"
@@ -139,8 +139,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/Model.csproj": {
-                "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/Model.csproj"
+              "/Users/malanone/Projects/EfCore_LoL_S4/Model/Model.csproj": {
+                "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/Model/Model.csproj"
               }
             }
           }
@@ -174,14 +174,14 @@
         }
       }
     },
-    "/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleTests/ConsoleTests.csproj": {
+    "/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTests/ConsoleTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleTests/ConsoleTests.csproj",
+        "projectUniqueName": "/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTests/ConsoleTests.csproj",
         "projectName": "ConsoleTests",
-        "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleTests/ConsoleTests.csproj",
+        "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTests/ConsoleTests.csproj",
         "packagesPath": "/Users/malanone/.nuget/packages/",
-        "outputPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleTests/obj/",
+        "outputPath": "/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/malanone/.nuget/NuGet/NuGet.Config"
@@ -197,11 +197,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/Model.csproj": {
-                "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/Model.csproj"
+              "/Users/malanone/Projects/EfCore_LoL_S4/Model/Model.csproj": {
+                "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/Model/Model.csproj"
               },
-              "/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/StubLib.csproj": {
-                "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/StubLib.csproj"
+              "/Users/malanone/Projects/EfCore_LoL_S4/StubLib/StubLib.csproj": {
+                "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/StubLib/StubLib.csproj"
               }
             }
           }

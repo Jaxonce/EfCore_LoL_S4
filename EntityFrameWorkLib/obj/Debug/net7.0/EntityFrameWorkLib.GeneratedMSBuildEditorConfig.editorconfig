@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EntityFrameWorkLib
-build_property.ProjectDir = /Users/malanone/Projects/EntityFramework_LoL/Sources/EntityFrameWorkLib/
+build_property.ProjectDir = /Users/malanone/Projects/EfCore_LoL_S4/EntityFrameWorkLib/

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wpmn3ia+9dHjGx5VlzLG/HgGNlgQhT3rxvOohVUorw9wpfDY2xxxpSBKfat8lHxRsH7Qy8BPohfjWQpCw2f40w==",
+  "dgSpecHash": "1DY3SDp+ykPr80f2/jq1bVnwVZB5Q175ydpHnMzciNRkS+Xrej/fqsjCTKH50pmN4Z9GluN5liX7BW+cZujwhg==",
   "success": true,
-  "projectFilePath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Model/Model.csproj",
+  "projectFilePath": "/Users/malanone/Projects/EfCore_LoL_S4/Model/Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

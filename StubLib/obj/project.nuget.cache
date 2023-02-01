@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jcg1VS8ioaj/oeVy+jvEC/yjZ/dqkAjgR2FV9D9I9x3AIvDMhkBDWQ/wEEnjm+OyD2Ll8fqYBRUNQuRleD/G7w==",
+  "dgSpecHash": "ITMzvGvXL/WybLC0oOOw+VsJisOKHoQVnjl3L1Q+dF/xZISU5ibx486rn9MIvm9e85vw8mK1EvOMZ4a6dgdVYA==",
   "success": true,
-  "projectFilePath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/StubLib/StubLib.csproj",
+  "projectFilePath": "/Users/malanone/Projects/EfCore_LoL_S4/StubLib/StubLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

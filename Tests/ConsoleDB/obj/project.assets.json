@@ -1323,11 +1323,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/ConsoleDB.csproj",
+      "projectUniqueName": "/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleDB/ConsoleDB.csproj",
       "projectName": "ConsoleDB",
-      "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/ConsoleDB.csproj",
+      "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleDB/ConsoleDB.csproj",
       "packagesPath": "/Users/malanone/.nuget/packages/",
-      "outputPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/obj/",
+      "outputPath": "/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleDB/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/malanone/.nuget/NuGet/NuGet.Config"
@@ -1343,8 +1343,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/malanone/Projects/EntityFramework_LoL/Sources/EntityFrameWorkLib/EntityFrameWorkLib.csproj": {
-              "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/EntityFrameWorkLib/EntityFrameWorkLib.csproj"
+            "/Users/malanone/Projects/EfCore_LoL_S4/EntityFrameWorkLib/EntityFrameWorkLib.csproj": {
+              "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/EntityFrameWorkLib/EntityFrameWorkLib.csproj"
             }
           }
         }

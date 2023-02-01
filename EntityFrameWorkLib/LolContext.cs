@@ -20,6 +20,17 @@ namespace EntityFrameWorkLib
             }
 
         }
+
+		protected override void OnModelCreating(ModelBuilder modelBuilder)
+		{
+			//Définition de la clé primaire de ChampionEntity
+			modelBuilder.Entity<ChampionEntity>().HasKey(n => n.UniqueId);
+			//Définition du mode de generation de la clé : génération à l'insertion
+			modelBuilder.Entity<ChampionEntity>().Property(n => n.UniqueId).ValueGeneratedOnAdd();
+
+			base.OnModelCreating(modelBuilder);
+
+        }
 			 
 	}
 }

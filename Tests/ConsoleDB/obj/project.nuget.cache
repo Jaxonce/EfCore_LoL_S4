@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qYagG7EvqzgFSh/+ha0nlIhocMg/Cj1xnv2ok1nqp12CSk9sdBlabWwg9lonPBbV2Z1Zq3RfE9X+QQxV5FnS3g==",
+  "dgSpecHash": "o69nw6yF9uD4rpVd9EeGwidXuWVU0LXKpi8HMkZ7A/yI1jg0ccFquNBwEJ8PohJGd6CTq8WaCGYTBONRgZGD8Q==",
   "success": true,
-  "projectFilePath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Tests/ConsoleDB/ConsoleDB.csproj",
+  "projectFilePath": "/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleDB/ConsoleDB.csproj",
   "expectedPackageFiles": [
     "/Users/malanone/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/malanone/.nuget/packages/microsoft.data.sqlite.core/7.0.2/microsoft.data.sqlite.core.7.0.2.nupkg.sha512",

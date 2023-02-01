@@ -5,7 +5,7 @@
 namespace ConsoleDB.Migrations
 {
     /// <inheritdoc />
-    public partial class MyMigrationConsole : Migration
+    public partial class MyMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

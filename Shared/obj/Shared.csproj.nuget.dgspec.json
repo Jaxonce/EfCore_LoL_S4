@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/Shared.csproj": {}
+    "/Users/malanone/Projects/EfCore_LoL_S4/Shared/Shared.csproj": {}
   },
   "projects": {
-    "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/Shared.csproj": {
+    "/Users/malanone/Projects/EfCore_LoL_S4/Shared/Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/Shared.csproj",
+        "projectUniqueName": "/Users/malanone/Projects/EfCore_LoL_S4/Shared/Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/Shared.csproj",
+        "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/Shared/Shared.csproj",
         "packagesPath": "/Users/malanone/.nuget/packages/",
-        "outputPath": "/Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/obj/",
+        "outputPath": "/Users/malanone/Projects/EfCore_LoL_S4/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/malanone/.nuget/NuGet/NuGet.Config"
