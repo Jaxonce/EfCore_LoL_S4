@@ -28,9 +28,6 @@ public partial class StubData : IDataManager
     {
         championsAndRunePages.Add(Tuple.Create(champions[0], runePages[0]));    
     }
-
-
-
     
 }
 
