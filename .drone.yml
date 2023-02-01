@@ -34,7 +34,7 @@ steps:
     secrets: [ SECRET_SONAR_LOGIN ]
     settings:
     # accessible en ligne de commande par $${PLUGIN SONAR HOST}
-      sonar_host: https://codefirst.ddns.net/sonar/
+      sonar_host: https://codefirst.iut.uca.fr/sonar/
 # accessible en ligne de commande par $${PLUGIN_SONAR_TOKEN}
       sonar_token:
         from_secret: SECRET_SONAR_LOGIN
