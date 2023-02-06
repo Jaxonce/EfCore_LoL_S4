@@ -1,15 +1,15 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{23AC6E45-406F-4320-B951-3B59DB10988C}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Api">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Tests.TestUnitaireLOL PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.DbDatamanager FirstBuild="True" />
   <DisabledProjects>
     <String>Tests/ConsoleTestapi/ConsoleTestapi.csproj</String>
+    <String>docker-compose.dcproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.ItemProperties.Tests.ConsoleDB PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations>
