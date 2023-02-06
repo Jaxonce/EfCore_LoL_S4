@@ -1,10 +1,11 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{DAE3B5A2-8904-43AE-8459-ED64C3366FDF}|https">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{23AC6E45-406F-4320-B951-3B59DB10988C}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Tests.TestUnitaireLOL PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.DbDatamanager FirstBuild="True" />
   <DisabledProjects>
@@ -14,7 +15,6 @@
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Api" Name="Api">
       <Items>
-        <StartupItem ItemId="{9F0D695A-3E93-40A5-9D4E-22A144757393}" ItemName="ConsoleTestapi" />
         <StartupItem ItemId="{DAE3B5A2-8904-43AE-8459-ED64C3366FDF}" ItemName="WebApiLol" ConfigurationId="https" />
       </Items>
     </MultiItemSolutionRunConfiguration>
