@@ -6,11 +6,11 @@ EXPOSE 80
 EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
-WORKDIR /
+WORKDIR /src
 COPY ["WebApiLol/WebApiLol.csproj", "WebApiLol/"]
 RUN dotnet restore "WebApiLol/WebApiLol.csproj"
 COPY . .
-WORKDIR /
+WORKDIR /src/WebApiLol
 RUN dotnet build "WebApiLol.csproj" -c Release -o /app/build
 
 FROM build AS publish
