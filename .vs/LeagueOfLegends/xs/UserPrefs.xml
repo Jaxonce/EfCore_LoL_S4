@@ -1,48 +1,61 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{3E16421B-7372-477D-A25E-8249D5203A1E}|Default">
-  <MonoDevelop.Ide.ItemProperties.DbDatamanager FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Tests.TestUnitaireLOL PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="StubLib/StubData.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{DAE3B5A2-8904-43AE-8459-ED64C3366FDF}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiLol/Controllers/ChampionController.cs">
     <Files>
-      <File FileName="StubLib/StubData.Skins.cs" Line="1" Column="1" />
-      <File FileName="StubLib/StubData.cs" Line="33" Column="1" />
-      <File FileName="StubLib/Extensions.cs" Line="1" Column="1" />
-      <File FileName="StubLib/StubData.Champions.cs" Line="1" Column="1" />
-      <File FileName="StubLib/StubData.RunePages.cs" Line="1" Column="1" />
-      <File FileName="StubLib/StubData.Runes.cs" Line="1" Column="1" />
-      <File FileName="Tests/ConsoleDB/Program.cs" Line="1" Column="1" />
-      <File FileName="EntityFrameWorkLib/LolContext.cs" Line="31" Column="37" />
-      <File FileName="Model/IDataManager.cs" Line="1" Column="1" />
-      <File FileName="Shared/IGenericDataManager.cs" Line="1" Column="1" />
+      <File FileName="WebApiLol/Controllers/ChampionController.cs" Line="29" Column="28" />
+      <File FileName="StubLib/StubData.Skins.cs" NotebookId="1" />
+      <File FileName="StubLib/StubData.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="StubLib/Extensions.cs" NotebookId="1" />
+      <File FileName="StubLib/StubData.Champions.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="StubLib/StubData.RunePages.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="StubLib/StubData.Runes.cs" NotebookId="1" />
+      <File FileName="Tests/ConsoleDB/Program.cs" NotebookId="1" />
+      <File FileName="EntityFrameWorkLib/LolContext.cs" NotebookId="1" />
+      <File FileName="Model/IDataManager.cs" NotebookId="1" />
+      <File FileName="Shared/IGenericDataManager.cs" NotebookId="1" />
+      <File FileName="Tests/TestUnitaireLOL/UnitTest1.cs" NotebookId="1" />
+      <File FileName="WebApiLol/ChampionDTO.cs" Line="11" Column="1" NotebookId="1" />
+      <File FileName="EntityFrameWorkLib/ChampionEntity.cs" NotebookId="1" />
+      <File FileName="WebApiLol/Program.cs" NotebookId="1" />
+      <File FileName="WebApiLol/Controllers/WeatherForecastController.cs" Line="33" Column="1" NotebookId="1" />
+      <File FileName="Tests/ConsoleTests/Program.cs" NotebookId="1" />
+      <File FileName="Model/enums/ChampionClass.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="WebApiLol/Controllers/RuneController.cs" Line="12" Column="25" NotebookId="1" />
+      <File FileName="Model/Champion.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="WebApiLol/SkillsDTO.cs" Line="7" Column="9" NotebookId="1" />
+      <File FileName="WebApiLol/SkinDTO.cs" Line="13" Column="1" NotebookId="1" />
+      <File FileName="WebApiLol/Controllers/SkillsController.cs" Line="10" Column="2" NotebookId="1" />
+      <File FileName="WebApiLol/Controllers/SkinController.cs" Line="29" Column="30" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LeagueOfLegends" expanded="True">
-            <Node name="Stub" expanded="True">
-              <Node name="StubLib" expanded="True" />
+            <Node name="WebApiLol" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
             </Node>
-            <Node name="Tests" expanded="True">
-              <Node name="ConsoleDB" expanded="True" />
-              <Node name="ConsoleTests" expanded="True" />
-              <Node name="TestUnitaireLOL" expanded="True" />
-            </Node>
-            <Node name="DbDatamanager" expanded="True" />
-            <Node name="EntityFrameWorkLib" expanded="True" />
-            <Node name="Model" expanded="True">
-              <Node name="enums" expanded="True" />
-            </Node>
-            <Node name="Shared" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Tests.TestUnitaireLOL PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Tests.ConsoleDB PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTestapi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Api" Name="Api">
+      <Items>
+        <StartupItem ItemId="{9F0D695A-3E93-40A5-9D4E-22A144757393}" ItemName="ConsoleTestapi" ConfigurationId="Default" />
+        <StartupItem ItemId="{DAE3B5A2-8904-43AE-8459-ED64C3366FDF}" ItemName="WebApiLol" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.WebApiLol PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.DbDatamanager FirstBuild="True" />
 </Properties>
