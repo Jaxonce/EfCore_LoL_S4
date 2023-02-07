@@ -45,7 +45,7 @@ steps:
   - name: docker-build-and-push
     image: plugins/docker
     settings:
-       dockerfile: WebApiLol/Dockerfile
+       dockerfile: Dockerfile
        context: WebApiLol
        registry: hub.codefirst.iut.uca.fr
        repo: hub.codefirst.iut.uca.fr/maxence.lanone/EfCore_LoL_S4
