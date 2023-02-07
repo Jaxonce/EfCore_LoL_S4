@@ -5,4 +5,4 @@ services:
     image: ${DOCKER_REGISTRY-}webapilol
     build:
       context: .
-      dockerfile: WebApiLol/Dockerfile
+      dockerfile: /Dockerfile
