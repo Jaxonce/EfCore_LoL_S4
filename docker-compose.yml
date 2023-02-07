@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  webapilol:
-    image: ${DOCKER_REGISTRY-}webapilol
-    build:
-      context: .
-      dockerfile: /Dockerfile
