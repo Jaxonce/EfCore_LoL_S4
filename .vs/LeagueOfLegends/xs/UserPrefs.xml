@@ -1,25 +1,9 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Api">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Tests.TestUnitaireLOL PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.DbDatamanager FirstBuild="True" />
-  <DisabledProjects>
-    <String>Tests/ConsoleTestapi/ConsoleTestapi.csproj</String>
-    <String>docker-compose.dcproj</String>
-  </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleDB PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Api" Name="Api">
-      <Items>
-        <StartupItem ItemId="{DAE3B5A2-8904-43AE-8459-ED64C3366FDF}" ItemName="WebApiLol" ConfigurationId="https" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiLol/Controllers/SkinController.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiLol/Dockerfile">
     <Files>
       <File FileName="StubLib/StubData.Skins.cs" />
       <File FileName="StubLib/StubData.cs" />
@@ -43,26 +27,29 @@
       <File FileName="WebApiLol/SkinDTO.cs" />
       <File FileName="WebApiLol/Controllers/SkillsController.cs" />
       <File FileName="WebApiLol/Controllers/SkinController.cs" Line="29" Column="30" />
+      <File FileName="WebApiLol/Dockerfile" Line="12" Column="9" />
+      <File FileName="WebApiLol/Dockerfile" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="LeagueOfLegends" expanded="True">
-            <Node name="Tests" expanded="True">
-              <Node name="ConsoleDB" expanded="True" />
-            </Node>
-            <Node name="DbDatamanager" expanded="True" />
-            <Node name="EntityFrameWorkLib" expanded="True" />
-            <Node name="Model" expanded="True" />
-            <Node name="Shared" expanded="True" />
-            <Node name="WebApiLol" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="LeagueOfLegends" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Api" Name="Api">
+      <Items>
+        <StartupItem ItemId="{DAE3B5A2-8904-43AE-8459-ED64C3366FDF}" ItemName="WebApiLol" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleDB PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.WebApiLol PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <DisabledProjects>
+    <String>Tests/ConsoleTestapi/ConsoleTestapi.csproj</String>
+  </DisabledProjects>
 </Properties>
