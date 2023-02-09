@@ -19,9 +19,9 @@ namespace WebApiLol.Controllers
         }
 
         [HttpGet(Name = "GetSkills")]
-        public ActionResult<IEnumerable<SkillsDTO>> Get()
+        public ActionResult<IEnumerable<SkillDTO>> Get()
         {
-            return Ok(Enumerable.Range(1, 5).Select(index => new SkillsDTO
+            return Ok(Enumerable.Range(1, 5).Select(index => new SkillDTO
             {
                 Name = "Rapias",
                 Description = "Empeche de donner son argent à n'importe qui"

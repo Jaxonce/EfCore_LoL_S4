@@ -107,6 +107,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      },
+      "StubLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StubLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StubLib.dll": {}
+        }
       }
     }
   },
@@ -460,11 +496,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
+    },
+    "StubLib/1.0.0": {
+      "type": "project",
+      "path": "../StubLib/StubLib.csproj",
+      "msbuildProject": "../StubLib/StubLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.2",
+      "Model >= 1.0.0",
+      "StubLib >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -493,7 +546,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/malanone/Projects/EfCore_LoL_S4/Model/Model.csproj": {
+              "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/Model/Model.csproj"
+            },
+            "/Users/malanone/Projects/EfCore_LoL_S4/StubLib/StubLib.csproj": {
+              "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/StubLib/StubLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

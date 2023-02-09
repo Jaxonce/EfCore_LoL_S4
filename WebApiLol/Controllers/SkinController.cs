@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using StubLib;
+using WebApiLol.Converter;
+using static StubLib.StubData;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,6 +14,8 @@ namespace WebApiLol.Controllers
     [Route("[controller]")]
     public class SkinController : Controller
     {
+        private StubData.SkinsManager SkinsManager { get; set; } = new StubData.SkinsManager(new StubData());
+
         private readonly ILogger<SkinController> _logger;
 
         public SkinController(ILogger<SkinController> logger)
@@ -30,6 +35,15 @@ namespace WebApiLol.Controllers
             })
             .ToArray());
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddSkin(SkinDTO skin)
+        {
+            var newSkin = skin.toModel();
+            await SkinsManager.AddItem(newSkin);
+            return Ok(newSkin);
+        }
+
     }
 }
 

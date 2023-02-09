@@ -1,11 +1,18 @@
 ﻿using System;
+using Model;
+
 namespace WebApiLol.Converter
 {
-	public class ControllerConverter
+	public static class SkinConverter
 	{
-		public ControllerConverter()
-		{
-		}
-	}
+        public static SkinDTO toDTO(this Skin skin) => new SkinDTO()
+        {
+            Name = skin.Name,
+            Description = skin.Description,
+        };
+
+        public static Skin toModel(this SkinDTO skin) => new Skin(skin.Name, skin.Description);
+
+    }
 }
 

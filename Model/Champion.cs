@@ -53,6 +53,12 @@ public class Champion : IEquatable<Champion>
         Skins = new ReadOnlyCollection<Skin>(skins);
     }
 
+    public Champion(string name, string bio)
+    {
+        this.name = name;
+        this.bio = bio;
+    }
+
     public ReadOnlyCollection<Skin> Skins { get; private set; }
     private List<Skin> skins = new ();
 

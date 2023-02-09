@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-
+using StubLib;
+using WebApiLol.Converter;
 
 namespace WebApiLol.Controllers;
 
@@ -11,6 +12,7 @@ namespace WebApiLol.Controllers;
 [Route("[controller]")]
 public class ChampionController : ControllerBase
 {
+    private StubData.ChampionsManager ChampionsManager { get; set; } = new StubData.ChampionsManager(new StubData());
 
     private readonly ILogger<ChampionController> _logger;
 
@@ -31,5 +33,14 @@ public class ChampionController : ControllerBase
         })
         .ToArray());
     }
+
+    [HttpPost]
+    public async Task<IActionResult> AddRune(ChampionDTO champion)
+    {
+        var newChampion = champion.toModel();
+        await ChampionsManager.AddItem(newChampion);
+        return Ok(newChampion);
+    }
+
 }
 

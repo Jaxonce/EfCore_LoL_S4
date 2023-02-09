@@ -62,6 +62,12 @@ namespace Model
 			Description = description;
 		}
 
+        public Skin(string name, string description)
+        {
+            this.name = name;
+            this.description = description;
+        }
+
         public override bool Equals(object? obj)
         {
             if(ReferenceEquals(obj, null)) return false;

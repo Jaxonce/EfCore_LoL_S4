@@ -1,45 +1,51 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Api">
-  <MonoDevelop.Ide.ItemProperties.Tests.TestUnitaireLOL PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DbDatamanager FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiLol/Dockerfile">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiLol/Controllers/ChampionController.cs">
     <Files>
-      <File FileName="StubLib/StubData.Skins.cs" />
-      <File FileName="StubLib/StubData.cs" />
-      <File FileName="StubLib/Extensions.cs" />
-      <File FileName="StubLib/StubData.Champions.cs" />
-      <File FileName="StubLib/StubData.RunePages.cs" />
-      <File FileName="StubLib/StubData.Runes.cs" />
-      <File FileName="Tests/ConsoleDB/Program.cs" />
-      <File FileName="EntityFrameWorkLib/LolContext.cs" />
-      <File FileName="Model/IDataManager.cs" />
-      <File FileName="Shared/IGenericDataManager.cs" />
-      <File FileName="Tests/TestUnitaireLOL/UnitTest1.cs" />
-      <File FileName="EntityFrameWorkLib/ChampionEntity.cs" />
-      <File FileName="WebApiLol/Program.cs" />
-      <File FileName="WebApiLol/Controllers/WeatherForecastController.cs" />
-      <File FileName="Tests/ConsoleTests/Program.cs" />
-      <File FileName="Model/enums/ChampionClass.cs" />
-      <File FileName="WebApiLol/Controllers/RuneController.cs" />
-      <File FileName="Model/Champion.cs" />
-      <File FileName="WebApiLol/SkillsDTO.cs" />
-      <File FileName="WebApiLol/SkinDTO.cs" />
-      <File FileName="WebApiLol/Controllers/SkillsController.cs" />
-      <File FileName="WebApiLol/Controllers/SkinController.cs" Line="29" Column="30" />
-      <File FileName="WebApiLol/Dockerfile" Line="12" Column="9" />
-      <File FileName="WebApiLol/Dockerfile" Line="1" Column="1" />
+      <File FileName="WebApiLol/Converter/ControllerConverter.cs" Line="7" Column="38" />
+      <File FileName="Model/Skill.cs" Line="3" Column="16" />
+      <File FileName="WebApiLol/RuneDTO.cs" Line="11" Column="1" />
+      <File FileName="WebApiLol/Converter/RuneConverter.cs" Line="16" Column="2" />
+      <File FileName="WebApiLol/Controllers/RuneController.cs" Line="47" Column="5" />
+      <File FileName="Model/enums/ChampionClass.cs" Line="1" Column="1" />
+      <File FileName="Model/IDataManager.cs" Line="1" Column="1" />
+      <File FileName="WebApiLol/Controllers/ChampionController.cs" Line="37" Column="14" />
+      <File FileName="WebApiLol/SkillsDTO.cs" Line="4" Column="20" />
+      <File FileName="WebApiLol/SkinDTO.cs" Line="1" Column="1" />
+      <File FileName="WebApiLol/Converter/SkillsConverter.cs" Line="18" Column="1" />
+      <File FileName="WebApiLol/Controllers/SkinController.cs" Line="42" Column="42" />
+      <File FileName="WebApiLol/Converter/SkinConverter.cs" Line="1" Column="1" />
+      <File FileName="WebApiLol/Controllers/SkillsController.cs" Line="25" Column="14" />
+      <File FileName="WebApiLol/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="LeagueOfLegends" expanded="True" />
+          <Node name="LeagueOfLegends" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="Stub" expanded="True">
+              <Node name="StubLib" expanded="True" />
+            </Node>
+            <Node name="EntityFrameWorkLib" expanded="True" />
+            <Node name="Model" expanded="True" />
+            <Node name="WebApiLol" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ChampionController.cs" selected="True" />
+              </Node>
+              <Node name="Converter" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.WebApiLol PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <DisabledProjects>
+    <String>Tests/ConsoleTestapi/ConsoleTestapi.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Api" Name="Api">
       <Items>
@@ -47,9 +53,9 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Tests.ConsoleDB PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.WebApiLol PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <DisabledProjects>
-    <String>Tests/ConsoleTestapi/ConsoleTestapi.csproj</String>
-  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Tests.TestUnitaireLOL PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.DbDatamanager FirstBuild="True" />
 </Properties>

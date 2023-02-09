@@ -10,3 +10,15 @@
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/obj/Debug/net6.0/refint/Shared.dll
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/obj/Debug/net6.0/Shared.pdb
 /Users/malanone/Projects/EntityFramework_LoL/Sources/Shared/obj/Debug/net6.0/ref/Shared.dll
+/Users/malanone/Projects/EfCore_LoL_S4/Shared/bin/Debug/net6.0/Shared.deps.json
+/Users/malanone/Projects/EfCore_LoL_S4/Shared/bin/Debug/net6.0/Shared.dll
+/Users/malanone/Projects/EfCore_LoL_S4/Shared/bin/Debug/net6.0/Shared.pdb
+/Users/malanone/Projects/EfCore_LoL_S4/Shared/obj/Debug/net6.0/Shared.csproj.AssemblyReference.cache
+/Users/malanone/Projects/EfCore_LoL_S4/Shared/obj/Debug/net6.0/Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/malanone/Projects/EfCore_LoL_S4/Shared/obj/Debug/net6.0/Shared.AssemblyInfoInputs.cache
+/Users/malanone/Projects/EfCore_LoL_S4/Shared/obj/Debug/net6.0/Shared.AssemblyInfo.cs
+/Users/malanone/Projects/EfCore_LoL_S4/Shared/obj/Debug/net6.0/Shared.csproj.CoreCompileInputs.cache
+/Users/malanone/Projects/EfCore_LoL_S4/Shared/obj/Debug/net6.0/Shared.dll
+/Users/malanone/Projects/EfCore_LoL_S4/Shared/obj/Debug/net6.0/refint/Shared.dll
+/Users/malanone/Projects/EfCore_LoL_S4/Shared/obj/Debug/net6.0/Shared.pdb
+/Users/malanone/Projects/EfCore_LoL_S4/Shared/obj/Debug/net6.0/ref/Shared.dll

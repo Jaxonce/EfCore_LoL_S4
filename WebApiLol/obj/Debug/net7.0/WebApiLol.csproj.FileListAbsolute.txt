@@ -31,3 +31,9 @@
 /Users/malanone/Projects/EfCore_LoL_S4/WebApiLol/obj/Debug/net7.0/WebApiLol.pdb
 /Users/malanone/Projects/EfCore_LoL_S4/WebApiLol/obj/Debug/net7.0/WebApiLol.genruntimeconfig.cache
 /Users/malanone/Projects/EfCore_LoL_S4/WebApiLol/obj/Debug/net7.0/ref/WebApiLol.dll
+/Users/malanone/Projects/EfCore_LoL_S4/WebApiLol/bin/Debug/net7.0/Model.dll
+/Users/malanone/Projects/EfCore_LoL_S4/WebApiLol/bin/Debug/net7.0/Shared.dll
+/Users/malanone/Projects/EfCore_LoL_S4/WebApiLol/bin/Debug/net7.0/StubLib.dll
+/Users/malanone/Projects/EfCore_LoL_S4/WebApiLol/bin/Debug/net7.0/Model.pdb
+/Users/malanone/Projects/EfCore_LoL_S4/WebApiLol/bin/Debug/net7.0/StubLib.pdb
+/Users/malanone/Projects/EfCore_LoL_S4/WebApiLol/bin/Debug/net7.0/Shared.pdb
