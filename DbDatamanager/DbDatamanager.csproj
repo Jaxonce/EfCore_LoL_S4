@@ -8,5 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Model\Model.csproj" />
+    <ProjectReference Include="..\EntityFrameWorkLib\EntityFrameWorkLib.csproj" />
   </ItemGroup>
 </Project>

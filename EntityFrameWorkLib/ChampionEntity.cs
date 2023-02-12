@@ -6,6 +6,7 @@ namespace EntityFrameWorkLib
 {
 	public class ChampionEntity
 	{
+
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int UniqueId { get; set; }
