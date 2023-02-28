@@ -280,3 +280,4 @@
 /Users/malanone/Projects/EfCore_LoL_S4/Tests/TestUnitaireLOL/obj/Debug/net7.0/TestUnitaireLOL.pdb
 /Users/malanone/Projects/EfCore_LoL_S4/Tests/TestUnitaireLOL/obj/Debug/net7.0/TestUnitaireLOL.genruntimeconfig.cache
 /Users/malanone/Projects/EfCore_LoL_S4/Tests/TestUnitaireLOL/obj/Debug/net7.0/ref/TestUnitaireLOL.dll
+/Users/malanone/Projects/EfCore_LoL_S4/Tests/TestUnitaireLOL/bin/Debug/net7.0/runtimes/linux-ppc64le/native/libe_sqlite3.so

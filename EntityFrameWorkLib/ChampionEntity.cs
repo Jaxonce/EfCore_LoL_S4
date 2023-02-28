@@ -13,6 +13,7 @@ namespace EntityFrameWorkLib
 		public string Name { get; set; }
         public string Bio { get; set; }
         public string Icon { get; set; }
+        public ChampionClassEntity championClass { get; set; }
 	}
 }
 

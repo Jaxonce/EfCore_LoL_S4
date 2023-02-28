@@ -122,3 +122,4 @@
 /Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleDB/obj/Debug/net7.0/ConsoleDB.pdb
 /Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleDB/obj/Debug/net7.0/ConsoleDB.genruntimeconfig.cache
 /Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleDB/obj/Debug/net7.0/ref/ConsoleDB.dll
+/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleDB/bin/Debug/net7.0/runtimes/linux-ppc64le/native/libe_sqlite3.so

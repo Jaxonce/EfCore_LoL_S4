@@ -106,11 +106,49 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      },
+      "StubLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StubLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StubLib.dll": {}
+        }
+      },
       "WebApiLol/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "7.0.2",
+          "Model": "1.0.0",
+          "StubLib": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "compile": {
@@ -476,6 +514,21 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "../../Model/Model.csproj",
+      "msbuildProject": "../../Model/Model.csproj"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/Shared.csproj",
+      "msbuildProject": "../../Shared/Shared.csproj"
+    },
+    "StubLib/1.0.0": {
+      "type": "project",
+      "path": "../../StubLib/StubLib.csproj",
+      "msbuildProject": "../../StubLib/StubLib.csproj"
+    },
     "WebApiLol/1.0.0": {
       "type": "project",
       "path": "../../WebApiLol/WebApiLol.csproj",
@@ -544,7 +597,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -26,3 +26,9 @@
 /Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTestapi/obj/Debug/net7.0/ConsoleTestapi.pdb
 /Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTestapi/obj/Debug/net7.0/ConsoleTestapi.genruntimeconfig.cache
 /Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTestapi/obj/Debug/net7.0/ref/ConsoleTestapi.dll
+/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTestapi/bin/Debug/net7.0/Model.dll
+/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTestapi/bin/Debug/net7.0/Shared.dll
+/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTestapi/bin/Debug/net7.0/StubLib.dll
+/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTestapi/bin/Debug/net7.0/Model.pdb
+/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTestapi/bin/Debug/net7.0/Shared.pdb
+/Users/malanone/Projects/EfCore_LoL_S4/Tests/ConsoleTestapi/bin/Debug/net7.0/StubLib.pdb
