@@ -2205,6 +2205,20 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "DbDatamanager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "EntityFrameWorkLib": "1.0.0",
+          "Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DbDatamanager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DbDatamanager.dll": {}
+        }
+      },
       "EntityFrameWorkLib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2217,6 +2231,29 @@
         },
         "runtime": {
           "bin/placeholder/EntityFrameWorkLib.dll": {}
+        }
+      },
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
         }
       }
     }
@@ -6648,14 +6685,30 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "DbDatamanager/1.0.0": {
+      "type": "project",
+      "path": "../../DbDatamanager/DbDatamanager.csproj",
+      "msbuildProject": "../../DbDatamanager/DbDatamanager.csproj"
+    },
     "EntityFrameWorkLib/1.0.0": {
       "type": "project",
       "path": "../../EntityFrameWorkLib/EntityFrameWorkLib.csproj",
       "msbuildProject": "../../EntityFrameWorkLib/EntityFrameWorkLib.csproj"
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "../../Model/Model.csproj",
+      "msbuildProject": "../../Model/Model.csproj"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/Shared.csproj",
+      "msbuildProject": "../../Shared/Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "DbDatamanager >= 1.0.0",
       "EntityFrameWorkLib >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.3",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
@@ -6690,6 +6743,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "/Users/malanone/Projects/EfCore_LoL_S4/DbDatamanager/DbDatamanager.csproj": {
+              "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/DbDatamanager/DbDatamanager.csproj"
+            },
             "/Users/malanone/Projects/EfCore_LoL_S4/EntityFrameWorkLib/EntityFrameWorkLib.csproj": {
               "projectPath": "/Users/malanone/Projects/EfCore_LoL_S4/EntityFrameWorkLib/EntityFrameWorkLib.csproj"
             }

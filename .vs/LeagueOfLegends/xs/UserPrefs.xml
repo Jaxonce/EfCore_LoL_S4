@@ -1,10 +1,4 @@
-﻿<Properties StartupConfiguration="{3E16421B-7372-477D-A25E-8249D5203A1E}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.ItemProperties.DbDatamanager FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Tests.TestUnitaireLOL PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{3E16421B-7372-477D-A25E-8249D5203A1E}|Default">
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Api" Name="Api">
       <Items>
@@ -12,40 +6,62 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleDB PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="StubLib/StubData.Champions.cs">
+  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Tests.TestUnitaireLOL PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Model/Champion.cs">
     <Files>
+      <File FileName="StubLib/StubData.Champions.cs" Line="78" Column="47" />
+      <File FileName="DbDatamanager/ChampionManager.cs" Line="58" Column="60" />
+      <File FileName="StubLib/StubData.cs" Line="25" Column="45" />
+      <File FileName="Tests/TestUnitaireLOL/UnitTest1.cs" Line="49" Column="10" />
+      <File FileName="Tests/TestUnitaireLOL/UnitTestDbDataManager.cs" Line="13" Column="61" />
+      <File FileName="DbDatamanager/DbDataManager.cs" Line="7" Column="74" />
+      <File FileName="DbDatamanager/ExtensionsDataManager.cs" Line="1" Column="1" />
+      <File FileName="Model/IDataManager.cs" Line="14" Column="19" />
+      <File FileName="Tests/ConsoleTests/Program.cs" Line="1" Column="1" />
+      <File FileName="Tests/ConsoleTestapi/Program.cs" Line="1" Column="1" />
       <File FileName="DbDatamanager/ChampionChanger.cs" Line="1" Column="1" />
       <File FileName="StubLib/Extensions.cs" Line="1" Column="1" />
-      <File FileName="StubLib/StubData.Champions.cs" Line="48" Column="73" />
-      <File FileName="DbDatamanager/ChampionManager.cs" Line="5" Column="24" />
-      <File FileName="DbDatamanager/DbDataManager.cs" Line="1" Column="1" />
-      <File FileName="DbDatamanager/ExtensionsDataManager.cs" Line="1" Column="1" />
-      <File FileName="StubLib/StubData.Skins.cs" Line="1" Column="1" />
-      <File FileName="StubLib/StubData.cs" Line="1" Column="1" />
+      <File FileName="EntityFrameWorkLib/ChampionEntity.cs" Line="8" Column="3" />
+      <File FileName="EntityFrameWorkLib/LolContext.cs" Line="1" Column="1" />
+      <File FileName="Model/Champion.cs" Line="18" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LeagueOfLegends" expanded="True">
             <Node name="Stub" expanded="True">
-              <Node name="StubLib" expanded="True">
-                <Node name="StubData.Champions.cs" selected="True" />
-              </Node>
+              <Node name="StubLib" expanded="True" />
             </Node>
             <Node name="Tests" expanded="True">
               <Node name="ConsoleDB" expanded="True" />
               <Node name="ConsoleTestapi" expanded="True" />
+              <Node name="ConsoleTests" expanded="True" />
               <Node name="TestUnitaireLOL" expanded="True" />
             </Node>
             <Node name="DbDatamanager" expanded="True" />
             <Node name="EntityFrameWorkLib" expanded="True" />
-            <Node name="Model" expanded="True" />
+            <Node name="Model" expanded="True">
+              <Node name="enums" expanded="True" />
+              <Node name="Champion.cs" selected="True" />
+            </Node>
+            <Node name="Shared" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="LeagueOfLegends" expanded="True" selected="True">
+            <Node name="Tests" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Tests.ConsoleDB PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -27,7 +27,7 @@ using (var context= new SQLiteLolContext())
     context.Add(champions);
     context.Add(darius);
     context.Add(jax);
-    context.SaveChanges();
+    await context.SaveChangesAsync();
 }
 
 public class SQLiteLolContext : LolContext

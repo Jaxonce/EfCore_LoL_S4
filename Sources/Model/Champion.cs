@@ -6,6 +6,21 @@ using System.Text;
 namespace Model;
 public class Champion : IEquatable<Champion>
 {
+    public int Id
+    {
+        get => id;
+        private init
+        {
+            if (id == 0)
+            {
+                id = id++;
+                return;
+            }
+            id = value;
+        }
+    }
+    private readonly int id = 0;
+
     public string Name
     {
         get => name;
@@ -52,7 +67,7 @@ public class Champion : IEquatable<Champion>
         Characteristics = new ReadOnlyDictionary<string, int>(characteristics);
         Skins = new ReadOnlyCollection<Skin>(skins);
     }
-
+  
     public Champion(string name, string bio)
     {
         this.name = name;

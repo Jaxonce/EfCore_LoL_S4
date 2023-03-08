@@ -27,5 +27,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\EntityFrameWorkLib\EntityFrameWorkLib.csproj" />
+    <ProjectReference Include="..\..\DbDatamanager\DbDatamanager.csproj" />
   </ItemGroup>
 </Project>
