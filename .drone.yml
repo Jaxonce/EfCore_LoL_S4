@@ -29,7 +29,7 @@ steps:
     commands:
       - cd Sources/
       - dotnet restore LeagueOfLegends.sln
-      - dotnet sonarscanner begin /k:EfCore_Lol_S4 /d:sonar.host.url="https://codefirst.iut.uca.fr/sonar" /d:sonar.coverage.exclusions="Tests/ConsoleDB/**" /d:sonar.coverageReportPaths="coveragereport/SonarQube.xml" /d:sonar.login=$${PLUGIN_SONAR_TOKEN}
+      - dotnet sonarscanner begin /k:EfCore_Lol_S4 /d:sonar.host.url="https://codefirst.iut.uca.fr/sonar" /d:sonar.coverage.exclusions="Tests/**" /d:sonar.coverageReportPaths="coveragereport/SonarQube.xml" /d:sonar.login=$${PLUGIN_SONAR_TOKEN}
       - dotnet build LeagueOfLegends.sln -c Release --no-restore
       - dotnet test LeagueOfLegends.sln --logger trx --no-restore /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura --collect "XPlat Code Coverage"
       - reportgenerator -reports:"**/coverage.cobertura.xml" -reporttypes:SonarQube -targetdir:"coveragereport"
