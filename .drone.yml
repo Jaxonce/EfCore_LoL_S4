@@ -42,20 +42,20 @@ steps:
 # accessible en ligne de commande par $${PLUGIN_SONAR_TOKEN}
       sonar_token:
         from_secret: SECRET_SONAR_LOGIN
-      depends on: [tests]
+    depends on: [tests]
 
   # docker image build
-  - name: docker-build-and-push
-    image: plugins/docker
-    settings:
-       dockerfile: Dockerfile
-       context: WebApiLol
-       registry: hub.codefirst.iut.uca.fr
-       repo: hub.codefirst.iut.uca.fr/maxence.lanone/EfCore_LoL_S4
-       username:
-         from_secret: SECRET_REGISTRY_USERNAME
-       password:
-         from_secret: SECRET_REGISTRY_PASSWORD
+#  - name: docker-build-and-push
+#    image: plugins/docker
+ #   settings:
+   #    dockerfile: Dockerfile
+  #     context: WebApiLol
+ #      registry: hub.codefirst.iut.uca.fr
+     #  repo: hub.codefirst.iut.uca.fr/maxence.lanone/EfCore_LoL_S4
+    #   username:
+   #      from_secret: SECRET_REGISTRY_USERNAME
+  #     password:
+ #        from_secret: SECRET_REGISTRY_PASSWORD
 
 volumes:
 - name: docs
