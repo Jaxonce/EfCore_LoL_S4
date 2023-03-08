@@ -11,6 +11,7 @@ steps:
   - name: build
     image: mcr.microsoft.com/dotnet/sdk:7.0
     commands:
+      - cd Sources/
       - dotnet restore LeagueOfLegends.sln
       - dotnet build LeagueOfLegends.sln -c Release --no-restore
       - dotnet publish LeagueOfLegends.sln -c Release --no-restore -o CI_PROJECT_DIR/build/release
@@ -18,6 +19,7 @@ steps:
   - name: tests
     image: mcr.microsoft.com/dotnet/sdk:7.0
     commands:
+      - cd Sources/
       - dotnet restore LeagueOfLegends.sln
       - dotnet test LeagueOfLegends.sln --no-restore
     depends_on: [build]
@@ -25,8 +27,9 @@ steps:
   - name: code-analysis
     image: hub.codefirst.iut.uca.fr/marc.chevaldonne/codefirst-dronesonarplugin-dotnet7
     commands:
+      - cd Sources/
       - dotnet restore LeagueOfLegends.sln
-      - dotnet sonarscanner begin /k:EfCore_Lol_S4 /d:sonar.host.url="https://codefirst.iut.uca.fr/sonar"  /d:sonar.coverageReportPaths="coveragereport/SonarQube.xml" /d:sonar.login=$${PLUGIN_SONAR_TOKEN}
+      - dotnet sonarscanner begin /k:EfCore_Lol_S4 /d:sonar.host.url="https://codefirst.iut.uca.fr/sonar" /d:sonar.coverage.exclusions="Tests/**" /d:sonar.coverageReportPaths="coveragereport/SonarQube.xml" /d:sonar.login=$${PLUGIN_SONAR_TOKEN}
       - dotnet build LeagueOfLegends.sln -c Release --no-restore
       - dotnet test LeagueOfLegends.sln --logger trx --no-restore /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura --collect "XPlat Code Coverage"
       - reportgenerator -reports:"**/coverage.cobertura.xml" -reporttypes:SonarQube -targetdir:"coveragereport"
@@ -39,20 +42,20 @@ steps:
 # accessible en ligne de commande par $${PLUGIN_SONAR_TOKEN}
       sonar_token:
         from_secret: SECRET_SONAR_LOGIN
-      depends on: [tests]
+    depends on: [tests]
 
   # docker image build
-  - name: docker-build-and-push
-    image: plugins/docker
-    settings:
-       dockerfile: Dockerfile
-       context: WebApiLol
-       registry: hub.codefirst.iut.uca.fr
-       repo: hub.codefirst.iut.uca.fr/maxence.lanone/EfCore_LoL_S4
-       username:
-         from_secret: SECRET_REGISTRY_USERNAME
-       password:
-         from_secret: SECRET_REGISTRY_PASSWORD
+#  - name: docker-build-and-push
+#    image: plugins/docker
+ #   settings:
+   #    dockerfile: Dockerfile
+  #     context: WebApiLol
+ #      registry: hub.codefirst.iut.uca.fr
+     #  repo: hub.codefirst.iut.uca.fr/maxence.lanone/EfCore_LoL_S4
+    #   username:
+   #      from_secret: SECRET_REGISTRY_USERNAME
+  #     password:
+ #        from_secret: SECRET_REGISTRY_PASSWORD
 
 volumes:
 - name: docs
