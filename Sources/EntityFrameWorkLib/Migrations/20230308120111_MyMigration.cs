@@ -14,15 +14,16 @@ namespace EntityFrameWorkLib.Migrations
                 name: "Champions",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                    UniqueId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(type: "TEXT", nullable: false),
                     Bio = table.Column<string>(type: "TEXT", nullable: false),
-                    Icon = table.Column<string>(type: "TEXT", nullable: false)
+                    Icon = table.Column<string>(type: "TEXT", nullable: false),
+                    championClass = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Champions", x => x.Id);
+                    table.PrimaryKey("PK_Champions", x => x.UniqueId);
                 });
         }
 

@@ -10,18 +10,18 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EntityFrameWorkLib.Migrations
 {
     [DbContext(typeof(LolContext))]
-    [Migration("20230201072518_MyMigration")]
+    [Migration("20230308120111_MyMigration")]
     partial class MyMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "7.0.2");
+            modelBuilder.HasAnnotation("ProductVersion", "7.0.3");
 
             modelBuilder.Entity("EntityFrameWorkLib.ChampionEntity", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("UniqueId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -37,7 +37,10 @@ namespace EntityFrameWorkLib.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.HasKey("Id");
+                    b.Property<int>("championClass")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("UniqueId");
 
                     b.ToTable("Champions");
                 });
