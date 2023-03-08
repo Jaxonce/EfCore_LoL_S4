@@ -1,1 +1,10 @@
 .DS_Store
+.vs/
+Sources/EntityFrameWorkLib/.DS_Store
+Sources/EntityFrameWorkLib/Migrations
+Sources/Tests/.DS_Store
+Sources/Tests/ConsoleDB/Migrations
+Sources/Tests/ConsoleDB/*.db
+Sources/Tests/ConsoleDB/bin/*
+Sources/Tests/TestUnitaireLOL/bin/**
+
