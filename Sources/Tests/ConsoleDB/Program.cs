@@ -21,23 +21,12 @@ ChampionEntity champions = new ChampionEntity
     Icon = "icon",
     Bio = "test bio champion"
 };
-using (var context= new SQLiteLolContext())
+using (var context= new LolContext())
 {
     Console.WriteLine("Create and Insert new Champion");
     context.Add(champions);
     context.Add(darius);
     context.Add(jax);
     await context.SaveChangesAsync();
-}
-
-public class SQLiteLolContext : LolContext
-{
-    protected override void OnConfiguring(DbContextOptionsBuilder options)
-    {
-        if (!options.IsConfigured)
-        {
-            options.UseSqlite($"Data Source=projet.Champions.db");
-        }   
-    }
 }
 
