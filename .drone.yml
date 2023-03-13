@@ -49,7 +49,7 @@ steps:
     image: plugins/docker
     settings:
        dockerfile: Dockerfile
-       context: Sources/Dockerfile
+       context: Sources/
        registry: hub.codefirst.iut.uca.fr
        repo: hub.codefirst.iut.uca.fr/maxence.lanone/LeagueOfLegendsAPI
        username:
