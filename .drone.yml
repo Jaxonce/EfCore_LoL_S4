@@ -48,7 +48,7 @@ steps:
   - name: docker-build
     image: plugins/docker
     settings:
-       dockerfile: Dockerfile
+       dockerfile: Sources/WebApiLol/Dockerfile
        context: Sources/
        registry: hub.codefirst.iut.uca.fr
        repo: hub.codefirst.iut.uca.fr/maxence.lanone/efcore_lol_s4
