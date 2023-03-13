@@ -45,13 +45,13 @@ steps:
     depends on: [tests]
 
   # docker image build
-  - name: docker-build-and-push
+  - name: docker-build
     image: plugins/docker
     settings:
        dockerfile: Dockerfile
        context: Sources/
        registry: hub.codefirst.iut.uca.fr
-       repo: hub.codefirst.iut.uca.fr/maxence.lanone/leagueoflegends_api
+       repo: hub.codefirst.iut.uca.fr/maxence.lanone/efcore_lol_s4
        username:
          from_secret: SECRET_REGISTRY_USERNAME
        password:
