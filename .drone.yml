@@ -61,7 +61,7 @@ steps:
   - name: deploy-container
     image: hub.codefirst.iut.uca.fr/thomas.bellembois/codefirst-dockerproxy-clientdrone:latest
     environment:
-        IMAGENAME: hub.codefirst.iut.uca.fr/my.login/efcore_lol_s4:latest
+        IMAGENAME: hub.codefirst.iut.uca.fr/maxence.lanone/efcore_lol_s4:latest
         CONTAINERNAME: maxencelanone-leagueoflegendsapi
         COMMAND: create
         OVERWRITE: true
