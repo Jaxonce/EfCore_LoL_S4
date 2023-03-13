@@ -57,6 +57,15 @@ steps:
        password:
          from_secret: SECRET_REGISTRY_PASSWORD
 
+  # container deployment
+  - name: deploy-container
+    image: hub.codefirst.iut.uca.fr/thomas.bellembois/codefirst-dockerproxy-clientdrone:latest
+    environment:
+        IMAGENAME: hub.codefirst.iut.uca.fr/my.login/efcore_lol_s4:latest
+        CONTAINERNAME: efcore_lol_s4
+        COMMAND: create
+        OVERWRITE: true
+
 volumes:
 - name: docs
   temp: {}
