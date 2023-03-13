@@ -100,6 +100,7 @@
 	  <PackageReference Include="Microsoft.Maui.Graphics.Skia" Version="7.0.59" />
 	  <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
 	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
+	  <PackageReference Include="Microsoft.Maui.Graphics" Version="7.0.59" />
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiSplashScreen Include="Resources\Splash\splash.png" />
