@@ -21,25 +21,64 @@ public class ChampionController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet(Name = "GetChampion")]
-    public ActionResult<IEnumerable<ChampionDTO>> Get()
+    [HttpGet]
+    public async Task<IActionResult> Get()
     {
-        return Ok(Enumerable.Range(1, 5).Select(index => new ChampionDTO
-        {
-            UniqueId = 0,
-            Bio= "Test bio",
-            Icon="Diamant",
-            Name="Jax"
-        })
-        .ToArray());
+        var list = await ChampionsManager.GetItems(0, await ChampionsManager.GetNbItems());
+        return Ok(list.Select(champion => champion?.toDTO()));
     }
 
-    [HttpPost]
-    public async Task<IActionResult> AddRune(ChampionDTO champion)
+    [HttpGet("name")]
+    public async Task<IActionResult> GetById(string name)
+    {
+        var championSelected = await ChampionsManager.GetItemsByName(name, 0, await ChampionsManager.GetNbItemsByName(name), null);
+        return Ok(championSelected.Select(c => c?.toDTO()));
+    }
+
+    [HttpPost("addChampion")]
+    public async Task<IActionResult> AddChampion([FromBody] ChampionDTO champion)
     {
         var newChampion = champion.toModel();
         await ChampionsManager.AddItem(newChampion);
-        return Ok(newChampion);
+        if (champion.Bio == "string")
+        {
+            champion.Bio = "Aucune bio";
+        }
+        Console.WriteLine("Le champion { " + champion.Name + " } avec pour bio { " + champion.Bio + " } a bien été ajouté");
+        return Ok();
+    }
+
+    [HttpPut("Update")]
+    public async Task<IActionResult> UpdateChampion(string name, [FromBody] ChampionDTO champion)
+    {
+        var championSelected = await ChampionsManager.GetItemsByName(name, 0, await ChampionsManager.GetNbItemsByName(name), null);
+        var existingChampion = championSelected.FirstOrDefault();
+        if (existingChampion == null)
+        {
+            Console.WriteLine("Le champion { " + name + " } n'existe pas !");
+            return NotFound();
+        }
+        var updatedChampion = champion.toModel();
+        await ChampionsManager.UpdateItem(existingChampion, updatedChampion);
+        if (updatedChampion.Bio == "string")
+        {
+            updatedChampion.Bio = "Aucune bio";
+        }
+        Console.WriteLine("Le champion { " + name + " } a été modifié en { " + updatedChampion.Name + " } avec pour bio { " + updatedChampion.Bio + " }");
+        return Ok();
+    }
+
+    [HttpDelete("Delete")]
+    public async Task<IActionResult> DeleteChampion(string name)
+    {
+        var championSelected = await ChampionsManager.GetItemsByName(name, 0, await ChampionsManager.GetNbItemsByName(name), null);
+        if (!await ChampionsManager.DeleteItem(championSelected.FirstOrDefault()))
+        {
+            Console.WriteLine("champion { " + name + " } non trouvé !");
+            return NotFound();
+        }
+        Console.WriteLine("champion { " + name + " } supprimé");
+        return Ok();
     }
 
 }
