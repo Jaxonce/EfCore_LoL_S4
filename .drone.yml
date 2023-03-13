@@ -65,6 +65,7 @@ steps:
         CONTAINERNAME: maxencelanone-leagueoflegendsapi
         COMMAND: create
         OVERWRITE: true
+        ADMINS: maxencelanone
     depends_on: [ docker-build ]
 
 volumes:
