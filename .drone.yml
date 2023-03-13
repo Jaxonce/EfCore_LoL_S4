@@ -65,7 +65,7 @@ steps:
         CONTAINERNAME: efcore_lol_s4
         COMMAND: create
         OVERWRITE: true
-    depends_on: [ docker-build-and-push ]
+    depends_on: [ docker-build ]
 
 volumes:
 - name: docs
