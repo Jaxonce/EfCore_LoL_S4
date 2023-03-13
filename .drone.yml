@@ -1,6 +1,6 @@
 kind: pipeline
 type: docker
-name: EfCore_Lol_S4
+name: EfCore_Lol_S4 
 
 trigger:
   event:
