@@ -62,7 +62,7 @@ steps:
     image: hub.codefirst.iut.uca.fr/thomas.bellembois/codefirst-dockerproxy-clientdrone:latest
     environment:
         IMAGENAME: hub.codefirst.iut.uca.fr/my.login/efcore_lol_s4:latest
-        CONTAINERNAME: maxencelanone-efcore_lol_s4
+        CONTAINERNAME: maxencelanone-leagueoflegendsapi
         COMMAND: create
         OVERWRITE: true
     depends_on: [ docker-build ]
