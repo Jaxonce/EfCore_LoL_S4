@@ -51,7 +51,7 @@ steps:
        dockerfile: Dockerfile
        context: Sources/
        registry: hub.codefirst.iut.uca.fr
-       repo: hub.codefirst.iut.uca.fr/maxence.lanone/efcore_lol_s4
+       repo: hub.codefirst.iut.uca.fr/maxence.lanone/leagueoflegends_api
        username:
          from_secret: SECRET_REGISTRY_USERNAME
        password:
