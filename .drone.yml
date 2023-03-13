@@ -5,7 +5,7 @@ name: EfCore_Lol_S4
 trigger:
   event:
     - push
-
+ 
 
 steps:
   - name: build
