@@ -42,7 +42,7 @@ steps:
 # accessible en ligne de commande par $${PLUGIN_SONAR_TOKEN}
       sonar_token:
         from_secret: SECRET_SONAR_LOGIN
-    depends on: [tests]
+    depends_on: [tests]
 
   # docker image build
   - name: docker-build
@@ -65,6 +65,7 @@ steps:
         CONTAINERNAME: efcore_lol_s4
         COMMAND: create
         OVERWRITE: true
+    depends_on: [ docker-build-and-push ]
 
 volumes:
 - name: docs
