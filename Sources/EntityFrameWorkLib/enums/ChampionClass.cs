@@ -1,7 +1,7 @@
 ﻿using System;
 namespace EntityFrameWorkLib
 {
-	public enum ChampionClassEntity
+	public enum ChampionClass
 	{
 		Unknown,
 		Assassin,

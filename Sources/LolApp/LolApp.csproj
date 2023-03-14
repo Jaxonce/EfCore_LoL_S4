@@ -91,7 +91,9 @@
 	  <ProjectReference Include="..\StubLib\StubLib.csproj">
 	    <ReferenceSourceTarget></ReferenceSourceTarget>
 	  </ProjectReference>
-	  <ProjectReference Include="..\ViewModels\ViewModels.csproj" />
+	  <ProjectReference Include="..\ViewModels\ViewModels.csproj">
+	    <ReferenceSourceTarget></ReferenceSourceTarget>
+	  </ProjectReference>
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Maui" Version="5.0.0" />

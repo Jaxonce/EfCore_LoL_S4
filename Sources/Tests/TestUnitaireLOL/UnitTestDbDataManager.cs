@@ -3,9 +3,7 @@ namespace TestUnitaireLOL
 {
 	public class UnitTestDbDataManager
 	{
-		public UnitTestDbDataManager()
-		{
-		}
+		
 	}
 }
 

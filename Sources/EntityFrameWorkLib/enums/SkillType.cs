@@ -1,7 +1,7 @@
 ﻿using System;
-namespace Model
+namespace EntityFrameWorkLib
 {
-	public enum SkillTypeEntity
+	public enum SkillType
 	{
 		Unknown,
 		Basic,

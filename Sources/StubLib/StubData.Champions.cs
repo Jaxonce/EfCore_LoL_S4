@@ -13,6 +13,7 @@ namespace StubLib
 			new Champion("Akshan", ChampionClass.Marksman),
 			new Champion("Bard", ChampionClass.Support),
 			new Champion("Alistar", ChampionClass.Tank),
+            new Champion("Kindred", ChampionClass.Marksman)
 		};
 
 		public class ChampionsManager : IChampionsManager

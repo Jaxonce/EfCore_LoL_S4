@@ -1,7 +1,7 @@
 ﻿using System;
-namespace Model
+namespace EntityFrameWorkLib
 {
-	public enum RuneFamilyEntity
+	public enum RuneFamily
 	{
 		Unknown,
 		Precision,

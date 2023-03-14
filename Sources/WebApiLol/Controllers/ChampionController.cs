@@ -28,7 +28,7 @@ public class ChampionController : ControllerBase
         return Ok(list.Select(champion => champion?.toDTO()));
     }
 
-    [HttpGet("name")]
+    [HttpGet("{name}")]
     public async Task<IActionResult> GetById(string name)
     {
         var championSelected = await ChampionsManager.GetItemsByName(name, 0, await ChampionsManager.GetNbItemsByName(name), null);
@@ -69,15 +69,15 @@ public class ChampionController : ControllerBase
     }
 
     [HttpDelete("Delete")]
-    public async Task<IActionResult> DeleteChampion(string name)
+    public async Task<IActionResult> DeleteChampion(ChampionDTO champion)
     {
-        var championSelected = await ChampionsManager.GetItemsByName(name, 0, await ChampionsManager.GetNbItemsByName(name), null);
+        var championSelected = await ChampionsManager.GetItemsByName(champion.toModel().Name, 0, await ChampionsManager.GetNbItemsByName(champion.toModel().Name), null);
         if (!await ChampionsManager.DeleteItem(championSelected.FirstOrDefault()))
         {
-            Console.WriteLine("champion { " + name + " } non trouvé !");
+            Console.WriteLine("champion { " + champion.toModel().Name + " } non trouvé !");
             return NotFound();
         }
-        Console.WriteLine("champion { " + name + " } supprimé");
+        Console.WriteLine("champion { " + champion.toModel().Name + " } supprimé");
         return Ok();
     }
 

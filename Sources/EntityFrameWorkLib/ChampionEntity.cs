@@ -11,9 +11,17 @@ namespace EntityFrameWorkLib
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int UniqueId { get; set; }
 		public string Name { get; set; }
+
+        [Required]
+        [MaxLength(256)]
         public string Bio { get; set; }
+
         public string Icon { get; set; }
-        public ChampionClassEntity championClass { get; set; }
+
+        [Required]
+        public ChampionClass Class { get; set; }
+
+        public LargeImageEntity? LargeImageEntity { get; set; }
 	}
 }
 
