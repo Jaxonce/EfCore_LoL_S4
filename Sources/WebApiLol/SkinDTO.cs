@@ -7,6 +7,15 @@ namespace WebApiLol
 		public string Description { get; set; }
 		public string Icon { get; set; }
 		public float Price { get; set; }
-	}
+
+        public SkinDTO(string name, string description, string icon, float price)
+        {
+            Name = name;
+            Description = description;
+            Icon = icon;
+            Price = price;
+
+        }
+    }
 }
 

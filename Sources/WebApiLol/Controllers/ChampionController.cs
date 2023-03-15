@@ -44,7 +44,7 @@ public class ChampionController : ControllerBase
         {
             champion.Bio = "Aucune bio";
         }
-        Console.WriteLine("Le champion { " + champion.Name + " } avec pour bio { " + champion.Bio + " } a bien été ajouté");
+        Console.WriteLine("Champion { " + champion.Name + " } with bio { " + champion.Bio + " } has been succesfully added");
         return Ok();
     }
 
@@ -55,7 +55,7 @@ public class ChampionController : ControllerBase
         var existingChampion = championSelected.FirstOrDefault();
         if (existingChampion == null)
         {
-            Console.WriteLine("Le champion { " + name + " } n'existe pas !");
+            Console.WriteLine("Champion { " + name + " } doesn't exist !");
             return NotFound();
         }
         var updatedChampion = champion.toModel();
@@ -64,7 +64,7 @@ public class ChampionController : ControllerBase
         {
             updatedChampion.Bio = "Aucune bio";
         }
-        Console.WriteLine("Le champion { " + name + " } a été modifié en { " + updatedChampion.Name + " } avec pour bio { " + updatedChampion.Bio + " }");
+        Console.WriteLine("Champion { " + name + " } has been modified in { " + updatedChampion.Name + " } with bio { " + updatedChampion.Bio + " }");
         return Ok();
     }
 
@@ -74,10 +74,10 @@ public class ChampionController : ControllerBase
         var championSelected = await ChampionsManager.GetItemsByName(name, 0, await ChampionsManager.GetNbItemsByName(name), null);
         if (!await ChampionsManager.DeleteItem(championSelected.FirstOrDefault()))
         {
-            Console.WriteLine("champion { " + name + " } non trouvé !");
+            Console.WriteLine("champion { " + name + " } not found !");
             return NotFound();
         }
-        Console.WriteLine("champion { " + name + " } supprimé");
+        Console.WriteLine("champion { " + name + " } deleted");
         return Ok();
     }
 
