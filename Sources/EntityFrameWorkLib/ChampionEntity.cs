@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Shared;
 
 namespace EntityFrameWorkLib
 {
@@ -13,7 +14,7 @@ namespace EntityFrameWorkLib
 		public string Name { get; set; }
         public string Bio { get; set; }
         public string Icon { get; set; }
-        public ChampionClassEntity championClass { get; set; }
+        public ChampionClass championClass { get; set; }
 	}
 }
 

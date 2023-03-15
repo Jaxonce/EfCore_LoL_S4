@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using Model;
+using Shared;
 
 namespace LolApp.Resources.Converters
 {

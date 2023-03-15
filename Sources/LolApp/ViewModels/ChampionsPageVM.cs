@@ -3,7 +3,9 @@ using System.Reflection;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Model;
+using Shared;
 using ViewModels;
+
 
 namespace LolApp.ViewModels
 {

@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using Model;
 using Microsoft.Maui.Controls;
 using System.Collections.ObjectModel;
+using Shared;
 
 
 namespace ViewModels

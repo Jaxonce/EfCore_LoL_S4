@@ -6,6 +6,7 @@ using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Data.SqlTypes;
 using System.Reflection;
+using Shared;
 
 namespace ViewModels;
 

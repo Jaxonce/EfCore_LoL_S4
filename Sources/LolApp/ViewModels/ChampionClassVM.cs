@@ -2,6 +2,7 @@
 using System.Linq;
 using CommunityToolkit.Mvvm.ComponentModel;
 using Model;
+using Shared;
 
 namespace LolApp.ViewModels
 {

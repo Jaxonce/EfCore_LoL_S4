@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Shared;
 namespace Model
 {
 	public class Skill : IEquatable<Skill>
