@@ -9,6 +9,8 @@ namespace WebApiLol.Converter
         {
             Name = skin.Name,
             Description = skin.Description,
+            Icon = skin.Icon,
+            Price = skin.Price
         };
 
         public static Skin toModel(this SkinDTO skin) => new Skin(skin.Name, skin.Description);

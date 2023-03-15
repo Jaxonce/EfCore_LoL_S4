@@ -3,13 +3,6 @@ namespace WebApiLol
 {
 	public class ChampionDTO
 	{
-        public ChampionDTO(string name, string bio, string icon, string championClassDTO)
-        {
-            Name = name;
-            Bio = bio;
-            Icon = icon;
-            Class = championClassDTO;
-        }
 
         public int UniqueId { get; set; }
 

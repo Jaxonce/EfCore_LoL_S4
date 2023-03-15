@@ -61,11 +61,7 @@ namespace DbDatamanager
             throw new NotImplementedException();
         }
 
-        public async Task<int> GetNbItems()
-        {
-            var nbItems = lolContext.Champions.Count();
-            return nbItems;
-        }
+        public async Task<int> GetNbItems() => lolContext.Champions.Count();
 
         private Func<Champion, string, bool> filterByName = (champ, substring) => champ.Name.Contains(substring, StringComparison.InvariantCultureIgnoreCase);
 
