@@ -64,8 +64,7 @@ Cette partie est réalisé avec un mac, toutes les manipulations qui vont suivre
 :construction:
 
 ## IOS
-
-# :rocket: Comment lancer le projet 
+ 
 
 ### 1 - Cloner le dépot 
 
@@ -86,3 +85,7 @@ Vous pouvez alors lancer le projet grâce à la flèche verte, bonne navigation 
 # Documention
 
 Rendez vous sur la partie wiki du projet pour accéder aux différents diagrammes ainsi qu'à la documention de l'api.
+
+# Réalisation
+
+Projet réalisé par Maxence Lanone, élève en PM3.
