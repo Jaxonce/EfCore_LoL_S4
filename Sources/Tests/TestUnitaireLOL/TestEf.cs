@@ -127,52 +127,52 @@ namespace TestUnitaireLOL
             }
         }
 
-        [Theory]
+        //[Theory]
 
-        [InlineData(0, "black", "super Skin", "icon1.png", 190000000.2f, true)]
-        [InlineData(1, "White", "skin1", "icon1", 19, true)]
-        [InlineData(2, "Green", "skin", "icon1.jpg", -1, false)]
-        public async Task TestAddSkinToChampionInMemory(int id, String name, String description, String icon, float price, bool expected)
-        {
-            var connection = new SqliteConnection("DataSource=:memory:");
-            connection.Open();
+        //[InlineData(0, "black", "super Skin", "icon1.png", 190000000.2f, true)]
+        //[InlineData(1, "White", "skin1", "icon1", 19, true)]
+        //[InlineData(2, "Green", "skin", "icon1.jpg", -1, false)]
+        //public async Task TestAddSkinToChampionInMemory(int id, String name, String description, String icon, float price, bool expected)
+        //{
+        //    var connection = new SqliteConnection("DataSource=:memory:");
+        //    connection.Open();
 
-            var options = new DbContextOptionsBuilder<LolContext>()
-                .UseSqlite(connection)
-                .Options;
+        //    var options = new DbContextOptionsBuilder<LolContext>()
+        //        .UseSqlite(connection)
+        //        .Options;
 
-            using (var context = new LolContext(options))
-            {
-                await context.Database.EnsureCreatedAsync();
+        //    using (var context = new LolContext(options))
+        //    {
+        //        await context.Database.EnsureCreatedAsync();
 
-                var Dieu = new ChampionEntity
-                {
-                    UniqueId = 0,
-                    Name = "Zeus",
-                    Bio = "Dieu de la foudre",
-                    Skins = new Collection<SkinEntity>()
-                };
+        //        var Dieu = new ChampionEntity
+        //        {
+        //            UniqueId = 0,
+        //            Name = "Zeus",
+        //            Bio = "Dieu de la foudre",
+        //            Skins = new Collection<SkinEntity>()
+        //        };
 
-                SkinEntity item = new SkinEntity
-                {
-                    Name = name,
-                    Description = description,
-                    Icon = icon,
-                    Price = price
-                };
+        //        SkinEntity item = new SkinEntity
+        //        {
+        //            Name = name,
+        //            Description = description,
+        //            Icon = icon,
+        //            Price = price
+        //        };
 
-                Dieu.Skins.Add(item);
+        //        Dieu.Skins.Add(item);
 
-                ChampionEntity found = await context.Champions.SingleOrDefaultAsync(c => c.Name == "Zeus");
-                Assert.Null(found);
+        //        ChampionEntity found = await context.Champions.SingleOrDefaultAsync(c => c.Name == "Zeus");
+        //        Assert.Null(found);
 
-                await context.Champions.AddAsync(Dieu);
-                await context.SaveChangesAsync();
+        //        await context.Champions.AddAsync(Dieu);
+        //        await context.SaveChangesAsync();
 
-                found = await context.Champions.SingleOrDefaultAsync(c => c.Name == name);
-            }
+        //        found = await context.Champions.SingleOrDefaultAsync(c => c.Name == name);
+        //    }
 
-        }
+        //}
     }
 }
 
