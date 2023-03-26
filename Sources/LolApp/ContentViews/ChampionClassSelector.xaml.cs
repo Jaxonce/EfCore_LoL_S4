@@ -1,4 +1,5 @@
 ﻿using Model;
+using Shared;
 
 namespace LolApp.ContentViews;
 

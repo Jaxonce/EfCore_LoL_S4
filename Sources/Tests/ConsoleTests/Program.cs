@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Model;
 using StubLib;
 using static System.Console;
+using Shared;
 
 namespace ConsoleTests
 {

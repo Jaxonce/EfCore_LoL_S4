@@ -2,6 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Numerics;
 using System.Text;
+using Shared;
 
 namespace Model;
 public class Champion : IEquatable<Champion>

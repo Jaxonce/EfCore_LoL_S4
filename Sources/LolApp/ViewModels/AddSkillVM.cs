@@ -3,8 +3,8 @@ using System.Linq;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Model;
+using Shared;
 using ViewModels;
-
 namespace LolApp.ViewModels
 {
 	public partial class AddSkillVM : ObservableObject

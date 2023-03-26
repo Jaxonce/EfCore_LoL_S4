@@ -1,6 +1,7 @@
 ﻿using System;
 using EntityFrameWorkLib;
 using Model;
+using Shared;
 
 namespace DbDatamanager
 {

@@ -1,6 +1,7 @@
 ﻿using System;
 using CommunityToolkit.Mvvm.ComponentModel;
 using Model;
+using Shared;
 
 namespace ViewModels
 {

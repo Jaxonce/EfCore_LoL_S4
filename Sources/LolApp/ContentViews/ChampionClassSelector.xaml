@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:model="clr-namespace:Model;assembly=Model" 
+             xmlns:shared="clr-namespace:Shared;assembly=Shared" 
              x:Class="LolApp.ContentViews.ChampionClassSelector"
              x:Name="root">
 
     <ContentView.Resources>
-        <model:ChampionClass x:Key="assassin">Assassin</model:ChampionClass>
-        <model:ChampionClass x:Key="fighter">Fighter</model:ChampionClass>
-        <model:ChampionClass x:Key="mage">Mage</model:ChampionClass>
-        <model:ChampionClass x:Key="marksman">Marksman</model:ChampionClass>
-        <model:ChampionClass x:Key="support">Support</model:ChampionClass>
-        <model:ChampionClass x:Key="tank">Tank</model:ChampionClass>
+        <shared:ChampionClass x:Key="assassin">Assassin</shared:ChampionClass>
+        <shared:ChampionClass x:Key="fighter">Fighter</shared:ChampionClass>
+        <shared:ChampionClass x:Key="mage">Mage</shared:ChampionClass>
+        <shared:ChampionClass x:Key="marksman">Marksman</shared:ChampionClass>
+        <shared:ChampionClass x:Key="support">Support</shared:ChampionClass>
+        <shared:ChampionClass x:Key="tank">Tank</shared:ChampionClass>
 
         <ControlTemplate x:Key="RadioButtonTemplate">
                 <Border Stroke="{StaticResource Transparent}"
