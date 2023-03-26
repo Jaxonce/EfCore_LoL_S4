@@ -70,7 +70,7 @@ Cette partie est réalisé avec un mac, toutes les manipulations qui vont suivre
 
 Ouvrer Visual Studio Pour Mac, cloner le depot a l'aide du lien suivant:
 
-    git clone https://codefirst.iut.uca.fr/git/maxence.lanone/EfCore_LoL_S4.git
+    https://codefirst.iut.uca.fr/git/maxence.lanone/EfCore_LoL_S4.git
 
 
 ### 3 - Configurer le démarrage du projet 
