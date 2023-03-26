@@ -9,13 +9,13 @@ namespace EntityFrameWorkLib
         [MaxLength(256)]
         public string Name { get; set; }
 
-        [Required]
+        //[Required]
         [MaxLength(500)]
         public string Description { get; set; }
 
         public string Icon { get; set; }
 
-        [Required]
+        //[Required]
         public float Price { get; set; }
     }
 }

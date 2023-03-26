@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Model;
 using StubLib;
 using WebApiLol.Converter;
 
@@ -14,18 +17,35 @@ public class ChampionController : ControllerBase
 {
     private StubData.ChampionsManager ChampionsManager { get; set; } = new StubData.ChampionsManager(new StubData());
 
+    private IChampionsManager _dataManager;
     private readonly ILogger<ChampionController> _logger;
 
-    public ChampionController(ILogger<ChampionController> logger)
+    public ChampionController(IDataManager manager,ILogger<ChampionController> logger)
     {
+        _dataManager = manager.ChampionsMgr;
         _logger = logger;
     }
 
     [HttpGet]
-    public async Task<IActionResult> Get()
+    [ProducesResponseType(typeof(ChampionPageDTO), 200)]
+    public async Task<IActionResult> Get([FromQuery] int index = 0, int count = 10, string? name = "")
     {
-        var list = await ChampionsManager.GetItems(0, await ChampionsManager.GetNbItems());
-        return Ok(list.Select(champion => champion?.toDTO()));
+        _logger.LogInformation($"methode Get de ControllerChampions appelée");
+        int nbChampions = await _dataManager.GetNbItems();
+        _logger.LogInformation($"Nombre de champions : {nbChampions}");
+        var champs = (await _dataManager.GetItemsByName(name, index, int.MaxValue))
+        .Where(champ => string.IsNullOrEmpty(name) || champ.Name.Contains(name, StringComparison.InvariantCultureIgnoreCase))
+        .Take(count)
+        .Select(Model => Model.toDTO());
+
+        var page = new ChampionPageDTO
+        {
+            Data = champs,
+            Index = index,
+            Count = champs.Count(),
+            TotalCount = nbChampions
+        };
+        return Ok(page);
     }
 
     [HttpGet("name")]

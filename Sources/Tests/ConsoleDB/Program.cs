@@ -22,7 +22,7 @@ ChampionEntity jax = new ChampionEntity
     Icon = "icon jax",
     Bio = "test bio jax",
     Class = ChampionClass.Fighter,
-    LargeImageEntity = largeImage
+    LargeImage = largeImage
 };
 ChampionEntity darius = new ChampionEntity
 {

@@ -8,13 +8,13 @@ namespace EntityFrameWorkLib
         [Key]
         public Guid Id { get; set; }
 
-        [Required]
+        //[Required]
         public string Base64 { get; set; }
 
-        [Required]
+        //[Required]
         public int championId { get; set; }
 
-        [Required]
+        //[Required]
         public ChampionEntity champion { get; set; }
     }
 }
