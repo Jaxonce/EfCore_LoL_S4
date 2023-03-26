@@ -4,7 +4,7 @@ namespace EntityFrameWorkLib
 	public class RunePageEntity
 	{
         public int Id { get; set; }
-        public String Name { get; set; }
+        public String? Name { get; set; }
     }
 
     public enum Category

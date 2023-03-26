@@ -8,16 +8,16 @@ namespace EntityFrameWorkLib
 	{
         [Key]
         [MaxLength(256)]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         //[Required]
         [MaxLength(500)]
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
         //[Required]
         public SkillType SkillType { get; set; }
 
-        public HashSet<ChampionEntity> champions { get; set; }
+        public HashSet<ChampionEntity>? champions { get; set; }
     }
 }
 
