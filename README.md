@@ -24,7 +24,7 @@ Ce dépot réuni plusieurs choses :
 
 > * :white_check_mark: La mise en place de toutes les opérations CRUD est terminée.
 > * :white_check_mark: Une API RESTful a été mise en place en respectant les règles de routage et en utilisant les bons codes de statut.
-> * La version de l'API a été gérée de manière appropriée.
+> * :construction: La version de l'API a été gérée de manière appropriée.
 > * :white_check_mark: Les logs ont été implémentés.
 > * :construction: Les tests unitaires sont en cours de réalisation.
 > * :construction: La création du client MAUI et sa liaison avec l'API sont en cours de réalisation.
@@ -65,7 +65,23 @@ Cette partie est réalisé avec un mac, toutes les manipulations qui vont suivre
 
 ## IOS
 
-Lancer visual studio 
+# :rocket: Comment lancer le projet 
+
+### 1 - Cloner le dépot 
+
+Ouvrer Visual Studio Pour Mac, cloner le depot a l'aide du lien suivant:
+
+    git clone https://codefirst.iut.uca.fr/git/maxence.lanone/EfCore_LoL_S4.git
+
+
+### 3 - Configurer le démarrage du projet 
+
+> clique droit sur le projet dans l'explorateur de solution > Set Startup Projects  
+
+Et selectionner soit LolApp + WebApiLol, soit ConsoleTests + WebApiLol.
+### 4 - Lancement du projet
+
+Vous pouvez alors lancer le projet grâce à la flèche verte, bonne navigation !
 
 # Documention
 
